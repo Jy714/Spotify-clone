@@ -1,9 +1,13 @@
 import React from "react"
+import Sidebar from "./components/Sidebar"
 
 function App() {
   return (
-    <div className="w-20 h-10 bg-pink-300">
-      Hello world!
+    <div className="h-screen bg-black">
+      <div className="h-[90%] flex">
+        <Sidebar />
+      </div>
+
     </div>
   )
 }
